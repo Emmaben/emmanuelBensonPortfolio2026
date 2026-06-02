@@ -1,0 +1,17 @@
+
+{
+  "name": "Emmanuel Benson Portfolio",
+  "short_name": "EB Portfolio",
+  "description": "Portfolio website of Emmanuel Benson, a software developer specializing in full-stack development.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7fafc",
+  "theme_color": "#2662d9",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
