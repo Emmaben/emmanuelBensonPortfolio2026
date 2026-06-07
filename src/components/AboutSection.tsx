@@ -76,11 +76,12 @@ const AboutSection = () => {
               </h3>
               <p className="text-muted-foreground">
                 Computer Science graduate (BSc Hons, Edinburgh Napier University) with 4+ years of
-                hands-on experience across freelance, internship, and academic settings. I build
-                full-stack web applications with React, Next.js, Flask, and .NET (C#), and develop
-                machine learning solutions in Python using Scikit-learn and transformer models.
-                Passionate about clean architecture, robust REST APIs, and delivering polished,
-                performant user experiences.
+                hands-on software development experience across freelance, internship, and academic
+                settings. Proficient in building full-stack web applications with React, Next.js,
+                Flask, and .NET (C#), and in developing machine learning solutions in Python using
+                Scikit-learn and transformer models. Strong foundation in REST APIs, relational and
+                NoSQL databases, version control, and Agile workflows. Seeking a Software Developer,
+                Python Developer, Full-Stack, or AI/ML Developer role.
               </p>
             </motion.div>
 
@@ -98,17 +99,17 @@ const AboutSection = () => {
                       <GraduationCap className="w-5 h-5 text-primary" />{" "}
                       Education
                     </h3>
-                    <div className="space-y-2">
-                      <p className="font-medium">BSc(Hons) in Computer Science</p>
-                      <p className="text-sm text-muted-foreground">
-                        Edinburgh Napier University
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        2022 - 2026
-                      </p>
-                      {/* <p className="text-sm text-muted-foreground">
-                        Dean's List (2023)
-                      </p> */}
+                    <div className="space-y-4">
+                      <div className="space-y-1">
+                        <p className="font-medium">BSc (Hons) Computer Science</p>
+                        <p className="text-sm text-muted-foreground">Edinburgh Napier University, Scotland, UK</p>
+                        <p className="text-sm text-muted-foreground">Sept 2022 – July 2026</p>
+                      </div>
+                      <div className="space-y-1">
+                        <p className="font-medium">National Diploma, Computer Science</p>
+                        <p className="text-sm text-muted-foreground">Yaba College of Technology, Lagos, Nigeria</p>
+                        <p className="text-sm text-muted-foreground">Sept 2020 – Apr 2022</p>
+                      </div>
                     </div>
                   </CardContent>
                 </SpotlightCard>
@@ -136,6 +137,11 @@ const AboutSection = () => {
                         <p className="font-medium">IT Assistant (Internship)</p>
                         <p className="text-sm text-muted-foreground">W Hotel Edinburgh</p>
                         <p className="text-sm text-muted-foreground">Jun 2024 – Sep 2024</p>
+                      </div>
+                      <div>
+                        <p className="font-medium">Frontend Developer (Freelance)</p>
+                        <p className="text-sm text-muted-foreground">Self-employed — Lagos, Nigeria</p>
+                        <p className="text-sm text-muted-foreground">Jan 2020 – Feb 2022</p>
                       </div>
                     </div>
                   </CardContent>

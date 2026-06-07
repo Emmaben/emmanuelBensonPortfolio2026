@@ -51,6 +51,30 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: "Fake News Detection System",
+    description: "Honours dissertation: a comparative study of classical ML models (Logistic Regression, SVM) and transformer models (BERT, RoBERTa) for fake news detection across the LIAR and ISOT datasets (45,000+ articles). Built a reproducible Python pipeline for data cleaning, TF-IDF feature extraction, model training, and evaluation. Fine-tuned transformers with the Hugging Face Trainer API and exposed generalisation failure across domains.",
+    image: "/imgs/aiTechniques.png",
+    imgset: ["/imgs/aiTechniques.png"],
+    tags: ["Python", "Scikit-learn", "Hugging Face Transformers", "BERT", "RoBERTa", "Pandas"],
+    links: {
+      github: "",
+      live: "",
+    },
+  },
+  {
+    id: 5,
+    title: "DE-Store — Distributed Store Management System",
+    description: "A microservice-style retail platform built with Service-Oriented Architecture (SOA), featuring independent price, inventory, finance, and reporting services exposed through REST APIs. Modelled relational data with SQLAlchemy, integrated an external finance-approval API, and built a responsive Bootstrap dashboard frontend with low-stock alerts and sales performance reporting.",
+    image: "/imgs/mas.png",
+    imgset: ["/imgs/mas.png"],
+    tags: ["Python", "Flask", "SQLAlchemy", "REST APIs", "Bootstrap", "SOA"],
+    links: {
+      github: "",
+      live: "",
+    },
+  },
+  {
+    id: 6,
     title: "AI Techniques: LLM Summarisation & A* Pathfinding",
     description: "A comparative study of Large Language Model (LLM) summarisation techniques combined with an implementation of the A* search algorithm for optimal pathfinding.",
     image: "/imgs/aiTechniques.png",
@@ -62,7 +86,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 5,
+    id: 7,
     title: "Search & Rescue Multi-Agent Simulation",
     description: "A multi-agent system simulation of a search and rescue operation, demonstrating autonomous agent behaviour, environment interaction, and intelligent decision-making.",
     image: "/imgs/mas.png",
@@ -74,7 +98,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 6,
+    id: 8,
     title: "Evolutionary Neural Network for Lunar Lander",
     description: "Java-based implementation of an Evolutionary Algorithm for optimising neural network controllers in the Lunar Lander problem. Implements tournament selection, uniform crossover, Gaussian mutation, and elitist replacement, with performance evaluated across multiple runs for generalisation.",
     image: "/imgs/lunar.png",
